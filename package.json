@@ -1,6 +1,6 @@
 {
   "name": "react-context-wrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Thin wrapper over the React Context API",
   "main": "lib/index.js",
   "scripts": {
@@ -17,15 +17,13 @@
   },
   "homepage": "https://github.com/paulmathis/react-context-wrap#readme",
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^16.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "react": "^16.4.1"
   }
 }

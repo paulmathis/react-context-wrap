@@ -7,8 +7,8 @@ export default function createStore(config) {
     const keys = Object.keys(actionsCreators);
     const actions = {};
     keys.forEach(key => {
-      actions[key] = input => {
-        updateState(state => actionsCreators[key](state, input));
+      actions[key] = (...args) => {
+        updateState(state => actionsCreators[key](state, ...args));
       };
     });
     return actions;
